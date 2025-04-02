@@ -1,0 +1,43 @@
+body {
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.34);
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#foto {
+    width: 250px;
+    height: 250px;
+    overflow: hidden; /* Para garantir que a imagem não ultrapasse os limites */
+    border-radius: 50%; /* Faz o contêiner ser redondo */
+    margin: auto;
+}
+
+.imgredonda {
+    width: 250px; /* Largura fixa */
+    height: 250px; /* Altura fixa */
+    object-fit: cover; /* Para garantir que a imagem se ajuste ao espaço disponível */
+    border-radius: 50%; /* Faz a imagem ser redonda */
+}
